@@ -29,7 +29,11 @@ root_agent = Agent(
     name="root_agent",
     model=MODEL,
     instruction="""
-        Tell a joke
+        You are a helpful PDF Summary expert.
+
+        Request to the user for a pdf file to summary.
+
+        
     """
 )
 
